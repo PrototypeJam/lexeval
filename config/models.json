@@ -1,0 +1,26 @@
+{
+    "meta-llama-3-70b-instruct": {
+        "name": "Meta Llama 3 70B Instruct",
+        "description": "Meta's latest 70B parameter instruction-tuned model",
+        "context_length": 4096,
+        "recommended_tasks": ["statutory_qna", "case_summary", "contract_analysis"]
+    },
+    "mistral-7b-instruct": {
+        "name": "Mistral 7B Instruct",
+        "description": "Mistral AI's 7B parameter instruction-tuned model",
+        "context_length": 8192,
+        "recommended_tasks": ["statutory_qna", "clause_extraction"]
+    },
+    "deepseek-coder-33b-instruct": {
+        "name": "DeepSeek Coder 33B Instruct",
+        "description": "DeepSeek's 33B parameter code-focused model",
+        "context_length": 32768,
+        "recommended_tasks": ["contract_analysis", "clause_extraction"]
+    },
+    "mixtral-8x7b-instruct": {
+        "name": "Mixtral 8x7B Instruct",
+        "description": "Mixtral AI's mixture-of-experts model",
+        "context_length": 32768,
+        "recommended_tasks": ["statutory_qna", "case_summary", "contract_analysis"]
+    }
+} 

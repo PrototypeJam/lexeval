@@ -1,0 +1,47 @@
+{
+  "model": "meta-llama-3-70b-instruct",
+  "timestamp": "2025-05-09_20-55-42",
+  "results": [
+    {
+      "task_id": "statutory_qna_01",
+      "model": "meta-llama-3-70b-instruct",
+      "input": "According to the California Civil Code Section 1940, what are the landlord's obligations regarding habitability of a rental property?",
+      "model_output": null,
+      "reference": "The landlord must maintain the rental property in a habitable condition, including providing effective waterproofing and weather protection, maintaining plumbing and gas facilities, providing hot and cold running water, maintaining heating facilities, maintaining electrical lighting and wiring, maintaining the building and grounds, providing appropriate receptacles for garbage, and maintaining the property in a clean and sanitary condition.",
+      "score": 0.0,
+      "metric": "rouge",
+      "latency": 2.9802322387695312e-05,
+      "error": "module 'together' has no attribute 'Chat'"
+    },
+    {
+      "task_id": "statutory_qna_02",
+      "model": "meta-llama-3-70b-instruct",
+      "input": "What are the requirements for a valid contract under the Uniform Commercial Code (UCC) Article 2?",
+      "model_output": null,
+      "reference": "Under UCC Article 2, a valid contract for the sale of goods requires: (1) an offer and acceptance, (2) consideration, (3) mutual intent to be bound, (4) capacity to contract, and (5) legality of purpose. The contract can be formed in any manner sufficient to show agreement, including conduct by both parties that recognizes the existence of a contract.",
+      "score": 0.0,
+      "metric": "rouge",
+      "latency": 2.86102294921875e-06,
+      "error": "module 'together' has no attribute 'Chat'"
+    },
+    {
+      "task_id": "statutory_qna_03",
+      "model": "meta-llama-3-70b-instruct",
+      "input": "What are the key provisions of the Americans with Disabilities Act (ADA) regarding employment discrimination?",
+      "model_output": null,
+      "reference": "The ADA prohibits employment discrimination against qualified individuals with disabilities. Key provisions include: (1) employers cannot discriminate in hiring, firing, promotions, or other employment practices, (2) employers must provide reasonable accommodations to qualified employees with disabilities, (3) employers cannot ask about disabilities during the hiring process, (4) employers must maintain confidentiality of medical information, and (5) employers cannot retaliate against employees who assert their rights under the ADA.",
+      "score": 0.0,
+      "metric": "rouge",
+      "latency": 1.1920928955078125e-06,
+      "error": "module 'together' has no attribute 'Chat'"
+    }
+  ],
+  "metrics": {
+    "total_tasks": 3,
+    "successful_runs": 0,
+    "failed_runs": 3,
+    "total_time": 0.39437198638916016,
+    "avg_latency": 0,
+    "avg_score": 0
+  }
+}

@@ -1,0 +1,9 @@
+streamlit>=1.32.0
+together>=1.4.6
+rouge-score>=0.1.2
+pandas>=2.2.0
+numpy>=1.26.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+tqdm>=4.66.0
+spacy>=3.7.0 

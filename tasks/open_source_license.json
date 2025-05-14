@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.0",
+    "task_name": "Open Source Licence Understanding",
+    "description": "Tasks for evaluating model's understanding of open source license terms and obligations",
+    "created_at": 1710000000,
+    "tasks": [
+      {
+        "task_name": "MIT Licence Summary and Obligations",
+        "task_id": "mit_license_summary",
+        "prompt": "Summarise the key obligations and permissions of the MIT Licence in plain English. Include what users *can* do, what they *must* do, and any limitations or disclaimers.",
+        "context": "",
+        "expected_output": "The MIT Licence is a permissive open-source licence. It allows users to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the software. Users must include the original licence text and copyright notice in all copies or substantial portions. There is no warranty — the software is provided 'as is'.",
+        "reference": "MIT License (https://opensource.org/licenses/MIT)",
+        "metric": "llm_judge",
+        "metadata": {
+          "created_at": 1710000000,
+          "last_modified": 1710000000
+        }
+      },
+      {
+        "task_name": "Compare MIT and GPL Licence Obligations",
+        "task_id": "compare_mit_gpl",
+        "prompt": "Explain the key differences in obligations between the MIT Licence and the GNU General Public License (GPL) when using and distributing modified versions of the software.",
+        "context": "",
+        "expected_output": "MIT is permissive: you can use and modify the code with minimal obligations, just retain the original licence. GPL is copyleft: if you modify and distribute the code, you must also release your modifications under the GPL and make the source code available. GPL imposes more obligations to ensure software freedom is preserved.",
+        "reference": "GNU GPL v3 and MIT License official texts",
+        "metric": "llm_judge",
+        "metadata": {
+          "created_at": 1710000000,
+          "last_modified": 1710000000
+        }
+      }
+    ]
+}
+  
