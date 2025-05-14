@@ -16,7 +16,7 @@ from core.eval_task import EvaluationTask
 
 # Set page config
 st.set_page_config(
-    page_title="LexBench",
+    page_title="LexEval",
     page_icon="⚖️",
     layout="wide"
 )
@@ -71,7 +71,7 @@ st.markdown(
 st.markdown(
     '''
     <div style="background: #2b6777; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
-        <h1 style="color: white; margin: 0;">⚖️ LexBench</h1>
+        <h1 style="color: white; margin: 0;">⚖️ LexEval</h1>
         <p style="color: #e0e7ef; margin: 0.5rem 0 0 0;">Legal model benchmarks</p>
     </div>
     ''',
@@ -331,7 +331,7 @@ def main():
     with api_tab:
         st.header("Together.ai API Configuration")
         st.markdown("""
-        To use LexBench, you'll need a Together.ai API key. You can get one by:
+        To use LexEval, you'll need a Together.ai API key. You can get one by:
         1. Creating an account at [Together.ai](https://api.together.xyz/)
         2. Going to your [API Keys page](https://api.together.xyz/settings/api-keys)
         3. Creating a new API key
@@ -545,6 +545,16 @@ def main():
     # Task Editor Tab
     with editor_tab:
         task_editor()
+
+    # Add footer
+    st.markdown(
+        '''
+        <div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #f5f5f5; padding: 1rem; text-align: center; border-top: 1px solid #e0e0e0;">
+            Built by <a href="https://www.ryanmcdonough.co.uk/" target="_blank">Ryan McDonough</a>
+        </div>
+        ''',
+        unsafe_allow_html=True
+    )
 
 if __name__ == "__main__":
     main() 
