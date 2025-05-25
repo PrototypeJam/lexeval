@@ -1,3 +1,10 @@
+# python -m venv venv
+# venv/bin/activate
+# source venv/bin/activate
+# Install dependencies
+# pip install -r requirements.txt
+# streamlit run frontend/streamlit_app.py
+
 import streamlit as st
 import json
 import pandas as pd
