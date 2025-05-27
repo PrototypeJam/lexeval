@@ -1,8 +1,6 @@
-# python -m venv venv
-# venv/bin/activate
-# source venv/bin/activate
-# Install dependencies
-# pip install -r requirements.txt
+# uv venv
+# source .venv/bin/activate
+# uv pip install -r requirements.txt
 # streamlit run frontend/streamlit_app.py
 
 import streamlit as st
@@ -557,7 +555,7 @@ def main():
     st.markdown(
         '''
         <div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #f5f5f5; padding: 1rem; text-align: center; border-top: 1px solid #e0e0e0;">
-            Built by <a href="https://www.ryanmcdonough.co.uk/" target="_blank">Ryan McDonough</a>
+            Built by <a href="https://www.ryanmcdonough.co.uk/" target="_blank">Ryan McDonough</a> and Evolved by <a href="https://www.dazzagreenwood.com/" target="_blank">Dazza Greenwood</a>
         </div>
         ''',
         unsafe_allow_html=True
